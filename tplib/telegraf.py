@@ -3,7 +3,8 @@ import json
 from paho.mqtt import publish
 
 
-HOSTNAME = "sodium.thepromisedlan.club"
+# TODO: move this to etcd
+HOSTNAME = "sodium.i.thepromisedlan.club"
 
 
 def log(topic: str, **kwargs) -> None:
