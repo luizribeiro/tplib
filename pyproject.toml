@@ -6,7 +6,7 @@ authors = ["Luiz Ribeiro <luizribeiro@gmail.com>"]
 
 [tool.poetry.dependencies]
 python = "^3.9"
-paho-mqtt = "^1.6.1"
+paho-mqtt = "^2.0.0"
 
 [tool.poetry.dev-dependencies]
 
